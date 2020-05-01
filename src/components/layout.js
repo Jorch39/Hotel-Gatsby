@@ -14,24 +14,25 @@ const Layout = (props) => {
             font-size: 62.5%;
           }
           body {
-            background-color: black;
-            color: white;
-            font-size: 16px;
-            font-size: 1.6rem;
+
+            font-size: 18px;
+            font-size: 1.8rem;
             line-height: 1.5;
+            font-family: 'PT Sans', sans-serif;
           }
 
-          h1,h2,h3 {
+          h1, h2, h3 {
             margin: 0;
             line-height: 1.5;
+
           }
 
-          h1,h2 {
-            fontt-family: 'Roboto', serif;
+          h1, h2 {
+            font-family: 'Roboto', serif;
           }
 
           h3 {
-            fontt-family: 'PT Sans', sans-serif;
+            font-family: 'PT Sans', sans-serif;
           }
 
           ul {
@@ -39,6 +40,7 @@ const Layout = (props) => {
             margin:0;
             padding:0;
           }
+
 
         `}
       />

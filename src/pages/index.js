@@ -1,12 +1,13 @@
 import React from "react"
-import Layout from '../components/layout'
+import Layout from '../components/layout';
+import Hotel from '../components/hotel';
 
 
 const IndexPage = () => (
   <Layout>
-    <h1>Index</h1>
+    <Hotel />
   </Layout>
   
 )
 
-export default IndexPage
+export default IndexPage;
