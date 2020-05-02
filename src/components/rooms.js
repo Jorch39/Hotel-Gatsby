@@ -26,8 +26,19 @@ const roomTemplate = ({data: { allDatoCmsRoom: { nodes } }}) => {
 
     return ( 
         <Layout>
-            <main>
-                <h1>{title}</h1>
+            <main
+                css={css`
+                    margin: 0 auto;
+                    max-width: 1200px;
+                    width: 90%;
+                `}
+            >
+                <h1
+                    css={css`
+                    text-align: center;
+                    margin-top: 4rem;
+                `}
+              >{title}</h1>
                 <p>{content}</p>
                 <Image fluid={image.fluid} />
             </main>
